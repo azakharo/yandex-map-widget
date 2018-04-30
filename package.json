@@ -1,0 +1,29 @@
+{
+  "name": "yandex-map-widget",
+  "version": "0.0.1",
+  "description": "Yandex Maps API loader and map creator",
+  "main": "dist/yandex-map-widget.js",
+  "scripts": {
+    "test": "jest --env=jsdom",
+    "clean": "del-cli dist",
+    "prebuild": "npm run clean",
+    "build": "babel src -d dist",
+    "publishOnly": "npm run build"
+  },
+  "keywords": [
+    "yandex",
+    "maps",
+    "yandex-maps"
+  ],
+  "author": "Alexey Zakharov <zangular@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-jest": "20.0.3",
+    "babel-preset-es2015": "6.24.1",
+    "del-cli": "1.1.0",
+    "file-url": "2.0.2",
+    "jest": "20.0.4"
+  },
+  "dependencies": {}
+}
