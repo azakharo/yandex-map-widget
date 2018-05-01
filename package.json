@@ -1,6 +1,6 @@
 {
   "name": "yandex-map-widget",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Yandex Maps API loader and map creator",
   "main": "dist/yandex-map-widget.js",
   "scripts": {
@@ -17,6 +17,11 @@
   ],
   "author": "Alexey Zakharov <zangular@yandex.ru>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azakharo/yandex-map-widget.git"
+  },
+  "homepage": "https://github.com/azakharo/yandex-map-widget#readme",
   "devDependencies": {
     "babel-cli": "6.24.1",
     "babel-jest": "20.0.3",
