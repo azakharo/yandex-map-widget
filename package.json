@@ -1,6 +1,6 @@
 {
   "name": "yandex-map-widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yandex Maps API loader and map creator",
   "main": "dist/yandex-map-widget.js",
   "scripts": {
