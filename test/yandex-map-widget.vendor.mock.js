@@ -1,4 +1,4 @@
-var yandexMapWidget = {
+var ymaps = {
   ready(callback) {
     callback(this);
   }
