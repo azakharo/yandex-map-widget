@@ -17,9 +17,11 @@ npm install yandex-map-widget
 
 ## Usage
 
+First, need to include the widget's CSS (see an code example below). It's possible to include the CSS in the widget's JS, but it's a bad design decision for maintability.
 If `yandex-map-widget.loadApi` was called without args, default `script src` value would be `"//api-maps.yandex.ru/2.1/?lang=ru_RU"`
 
 ```javascript
+import 'yandex-map-widget/dist/yandex-map-widget.css';
 import mapWidjet from 'yandex-map-widget';
 
     mapWidjet.loadApi()
